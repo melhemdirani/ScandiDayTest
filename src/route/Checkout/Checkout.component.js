@@ -1,7 +1,7 @@
 import { Checkout as SourceCheckout } from 'SourceRoute/Checkout/Checkout.component'
 import ContentWrapper from 'Component/ContentWrapper';
 import './Checkout.extention.style';
-import CheckoutStep from './CheckOutStep.component';
+import CheckoutStep from '../../component/CheckOutStep/CheckOutStep.component';
 
 
 class Checkout extends SourceCheckout {
@@ -17,7 +17,7 @@ class Checkout extends SourceCheckout {
     }
 
     render(){
-        
+
         return(
            <main block="Checkout">
                 { this.renderCheckoutSteps() }
