@@ -15,7 +15,9 @@ class Checkout extends SourceCheckout {
         )
 
     }
+
     render(){
+        
         return(
            <main block="Checkout">
                 { this.renderCheckoutSteps() }
